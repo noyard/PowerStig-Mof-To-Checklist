@@ -11,5 +11,6 @@ To run the powershell script:
 Upon initial execution of the PowerShell script the folder structure will be created. 
   - Logs will contain a PowerShell transcript of the script output
   - ManualExceptions contains exceptions to flag the STiG as completed and provide a reason.  See below on how to create the exception rules. 
-  - Results 
-  - Stigs 
+  - Results - contains output of Test-DscConfiguration against the target computer, in XML format. 
+  - Stigs - During initial execution the script will create folders of the different STiG groups, then you place the manual check STiG file in the folders that you would like to create the checklist with.
+  - Checklist - output folder where the per machine STiG Checkslist are located. 
